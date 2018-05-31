@@ -3,10 +3,10 @@ theme : "moon"
 transition: "zoom"
 highlightTheme: "darkula"
 slidenumber: true
-
+author: Knecht
 ---
 
-# Revealjs <br> Quickstart
+# Revealjs <br> Quickstart <br> <small>by [Knecht](https://knowledge.rootknecht.net/about)</small>
 
 ---
 
@@ -18,14 +18,11 @@ slidenumber: true
 
 ![](bad-pp.jpg) <!-- .element height="750%" width="75%" -->
 
-BAD! <!-- .element: class="fragment" -->
 --
 
 ## How to diff?
 
 ![](ppt.png) <!-- .element height="50%" width="50%" -->
-
-EVEN WORSE! <!-- .element: class="fragment" -->
 
 --
 
@@ -33,15 +30,11 @@ EVEN WORSE! <!-- .element: class="fragment" -->
 
 ![](readme.png) <!-- .element height="100%" width="100%" -->
 
-N1CE! <!-- .element: class="fragment" -->
-
 --
 
 ## How about that?
 
-![](js.png) <!-- .element height="100%" width="100%" -->
-
-SURE! <!-- .element: class="fragment" -->
+![](web.png) <!-- .element height="100%" width="100%" -->
 
 --
 
@@ -56,16 +49,16 @@ SURE! <!-- .element: class="fragment" -->
 ## What is that?
 
 * Framework for HTML presentations <!-- .element: class="fragment" -->
-* Markdown, orgmode, and more <!-- .element: class="fragment" -->
+* Support for Markdown, orgmode, and more <!-- .element: class="fragment" -->
 * Speaker notes, pdf export, API, and more <!-- .element: class="fragment" -->
 
 --
 
 ## Syntax
 
-BILD vom editor
+![](code.png)  <!-- .element height="75%" width="75%" -->
 
-<small>[Source example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
+<small>[extensive example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
 
 --
 
@@ -73,16 +66,24 @@ BILD vom editor
 
 * Emacs, VS Code, Vim <!-- .element: class="fragment" -->
 * R Studio, Jupyter <!-- .element: class="fragment" -->
-* reveal-md, pandoc <!-- .element: class="fragment" -->
+* reveal-md, Pandoc <!-- .element: class="fragment" -->
 * HTML <!-- .element: class="fragment" -->
+
+--
+
+### Create single file presentation
+```bash
+pandoc -t revealjs -s -o myslides.html myslides.md -V revealjs-url=http://lab.hakim.se/reveal-js
+```
 
 ---
 
 # Benefits
 
-* Text files &rarr; VCS, portable
-* Easy but powerful
-* Less bullet points
+* VCS, portable, small size
+* Easy to write
+* Powerful features
+* Less is more
 
 
 ---
@@ -92,3 +93,5 @@ BILD vom editor
 * [Revealjs](https://github.com/hakimel/reveal.js)
 * [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal)
 * [Emacs](https://github.com/yjwen/org-reveal)
+* [Pandoc](https://pandoc.org/)
+* [reveal-md](https://github.com/webpro/reveal-md)
