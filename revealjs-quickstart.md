@@ -63,6 +63,8 @@ author: Knecht
 --
 
 ## Tooling
+<!-- .slide: data-background="background.png" -->
+<!-- .slide: style="color:red" -->
 
 * Emacs, VS Code, Vim <!-- .element: class="fragment" -->
 * R Studio, Jupyter <!-- .element: class="fragment" -->
