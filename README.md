@@ -28,7 +28,7 @@ author: Knecht
 
 ## Do you know this?
 
-![](readme.png) <!-- .element height="100%" width="100%" -->
+![](markdown.png) <!-- .element height="100%" width="100%" -->
 
 --
 
