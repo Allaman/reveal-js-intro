@@ -87,6 +87,15 @@ pandoc -t revealjs -s -o myslides.html myslides.md -V revealjs-url=http://lab.ha
 * Powerful features
 * Less is more
 
+---
+
+# Alternatives
+
+* [Impressjs](https://impress.js.org/#/bored)
+* [Remark](https://remarkjs.com/)
+* [Shower](https://github.com/shower/shower)
+* [Latex Beamer](https://de.wikipedia.org/wiki/Beamer_\(LaTeX\))
+* [Prezi](https://prezi.com/de/)
 
 ---
 
