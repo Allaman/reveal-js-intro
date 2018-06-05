@@ -3,7 +3,8 @@ theme : "moon"
 transition: "zoom"
 highlightTheme: "darkula"
 slidenumber: true
-author: Knecht
+separator: ^---
+verticalSeparator: ^--
 ---
 
 # Revealjs <br> Quickstart <br> <small>by [Knecht](https://knowledge.rootknecht.net/about)</small>
@@ -63,7 +64,7 @@ author: Knecht
 --
 
 ## Tooling
-<!-- .slide: data-background="background.png" -->
+<!-- .slide: data-background="./background.png" -->
 <!-- .slide: style="color:red" -->
 
 * Emacs, VS Code, Vim <!-- .element: class="fragment" -->
@@ -73,9 +74,19 @@ author: Knecht
 
 --
 
-### Create single file presentation
+### Pandoc example
+
 ```bash
 pandoc -t revealjs -s -o myslides.html myslides.md -V revealjs-url=http://lab.hakim.se/reveal-js
+```
+
+--
+
+### Reveal-md example
+
+```bash
+npm i -g reveal-md
+reveal-md presentation.md --static public
 ```
 
 ---
