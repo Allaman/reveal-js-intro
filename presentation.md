@@ -18,12 +18,14 @@ verticalSeparator: ^--
 ## Do you know this?
 
 ![](bad-pp.jpg) <!-- .element height="750%" width="75%" -->
+<small><[source](http://www.kothuria.com/bad-powerpoint-presentations/bad-powerpoint-presentations-examples-of-bad-powerpoint-presentations-slaved-template/)>
 
 --
 
 ## How to diff?
 
 ![](ppt.png) <!-- .element height="50%" width="50%" -->
+<small>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small>)
 
 --
 
@@ -36,6 +38,7 @@ verticalSeparator: ^--
 ## How about that?
 
 ![](web.png) <!-- .element height="100%" width="100%" -->
+<small>[source](https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png)
 
 --
 
@@ -59,6 +62,7 @@ verticalSeparator: ^--
 
 ![](code.png)  <!-- .element height="75%" width="75%" -->
 
+<small>[source of this presentation](https://repo.rootknecht.net/open/revealjs-quickstart/)
 <small>[extensive example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
 
 --
@@ -89,6 +93,10 @@ pandoc -t revealjs -s -o myslides.html myslides.md \
 npm i -g reveal-md
 reveal-md presentation.md --static public
 ```
+
+--
+
+### Revealjs & Gitlab
 
 ---
 
