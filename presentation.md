@@ -77,7 +77,8 @@ verticalSeparator: ^--
 ### Pandoc example
 
 ```bash
-pandoc -t revealjs -s -o myslides.html myslides.md -V revealjs-url=http://lab.hakim.se/reveal-js
+pandoc -t revealjs -s -o myslides.html myslides.md \
+    -V revealjs-url=http://lab.hakim.se/reveal-js
 ```
 
 --
