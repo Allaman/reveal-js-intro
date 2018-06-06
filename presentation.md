@@ -78,7 +78,7 @@ verticalSeparator: ^--
 * R Studio, Jupyter <!-- .element: class="fragment" -->
 * reveal-md, Pandoc <!-- .element: class="fragment" -->
 * HTML <!-- .element: class="fragment" -->
-* Many more
+* Many more  <!-- .element: class="fragment" -->
 
 --
 
