@@ -102,6 +102,8 @@ reveal-md presentation.md --static public
 
 ### Revealjs & Gitlab
 
+Soon!
+
 ---
 
 # Benefits
