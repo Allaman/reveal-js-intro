@@ -46,7 +46,7 @@ verticalSeparator: ^--
 
 --
 
-## Webtechnologies + Documentation <br>= ???
+## Webtechnologies + Markup Language <br>= ???
 
 ---
 
@@ -57,7 +57,7 @@ verticalSeparator: ^--
 ## What is that?
 
 * Framework for HTML presentations <!-- .element: class="fragment" -->
-* Support for Markdown, orgmode, and more <!-- .element: class="fragment" -->
+* Support for Markdown, orgmode, rST, and more <!-- .element: class="fragment" -->
 * Speaker notes, pdf export, API, and more <!-- .element: class="fragment" -->
 
 --
@@ -101,9 +101,12 @@ reveal-md presentation.md --static public
 
 --
 
-### Revealjs & Gitlab
+### Revealjs & Gitlab Workflow
 
-Soon!
+1. VS Code editing
+1. Export with reveal-md
+1. Push changes to Gitlab
+1. Triggering [Gitlab CI](https://repo.rootknecht.net/open/revealjs-quickstart/pipelines)
 
 ---
 
