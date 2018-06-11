@@ -1,5 +1,5 @@
 ---
-title: Revealjs Quickstart
+title: Revealjs Introduction
 theme : "moon"
 transition: "zoom"
 highlightTheme: "darkula"
@@ -8,7 +8,7 @@ separator: ^---
 verticalSeparator: ^--
 ---
 
-# Revealjs <br> Quickstart <br> <small>by [Knecht](https://knowledge.rootknecht.net/about)</small>
+# Revealjs <br> Introduction <br> <small>by [Knecht](https://knowledge.rootknecht.net/about)</small>
 
 ---
 
