@@ -66,7 +66,7 @@ verticalSeparator: ^--
 
 ![](code.png)  <!-- .element height="65%" width="65%" -->
 
-<small>[source of this presentation](https://repo.rootknecht.net/open/revealjs-quickstart/) and a slightly more [extensive example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
+<small>[source of this presentation](https://repo.rootknecht.net/open/revealjs-intro/) and a slightly more [extensive example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
 
 --
 
@@ -106,7 +106,7 @@ reveal-md presentation.md --static public
 1. VS Code editing
 1. Export with reveal-md
 1. Push changes to Gitlab
-1. Triggering [Gitlab CI](https://repo.rootknecht.net/open/revealjs-quickstart/pipelines)
+1. Triggering [Gitlab CI](https://repo.rootknecht.net/open/revealjs-intro/pipelines)
 
 ---
 
