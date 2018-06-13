@@ -6,7 +6,7 @@ highlightTheme: "darkula"
 slidenumber: true
 separator: ^---
 verticalSeparator: ^--
-showNotes: true
+showNotes: true ## Export notes in pdf
 ## showNotes: "separate-page" fur longer notes
 ---
 
@@ -88,9 +88,11 @@ showNotes: true
 ### Pandoc example
 
 ```bash
-pandoc -t revealjs -s -o myslides.html myslides.md \
+pandoc -t revealjs -s -o slides.html myslides.md \
     -V revealjs-url=http://lab.hakim.se/reveal-js
 ```
+
+Note: Does require internet access as reveljs libs will be loaded from the web
 
 --
 
@@ -127,9 +129,9 @@ Note: There are speaker notes too! These require a webserver (no static files)
 * Adding `?print-pdf-now` manually
 * Pandoc
 
-[This presentaion as PDF](./revealjs-intro.pdf)
+[This presentation as PDF](./revealjs-intro.pdf)
 
-Note: First requires Puppeteer installed
+Note: First requires Puppeteer installed,
 second works for now only with Chrome
 
 ---
@@ -172,4 +174,4 @@ second works for now only with Chrome
 * [reveal-md](https://github.com/webpro/reveal-md)
 * [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/)
 
-# Thanks !
+# Thanks!
