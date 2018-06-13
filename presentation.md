@@ -116,7 +116,7 @@ reveal-md presentation.md --static public
 
 ![](speaker.png) <!-- .element height="80%" width="80%" -->
 
-Note: There are speaker notes too!
+Note: There are speaker notes too! These require a webserver (no static files)
 
 --
 
