@@ -101,7 +101,16 @@ Note: Does require internet access as reveljs libs will be loaded from the web
 ```bash
 npm i -g reveal-md
 reveal-md presentation.md --static public
+reveal-md presentation.md
 ```
+
+Note: First exports static html files, second spins up local webserver
+
+--
+
+## VS Code revealjs Extension
+
+![](vscode-reveal.png)  <!-- .element height="45%" width="45%" -->
 
 --
 
@@ -126,7 +135,7 @@ Note: There are speaker notes too! These require a webserver (no static files)
 
 * reveal-md presentation.md --print slides.pdf
 * With vscode-reveal
-* Adding `?print-pdf-now` manually
+* Adding `?print-pdf-now` manually to URL
 * Pandoc
 
 [This presentation as PDF](./revealjs-intro.pdf)
@@ -173,5 +182,7 @@ second works for now only with Chrome
 * [Pandoc](https://pandoc.org/)
 * [reveal-md](https://github.com/webpro/reveal-md)
 * [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/)
+
+---
 
 # Thanks!
