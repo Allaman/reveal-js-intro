@@ -6,6 +6,8 @@ highlightTheme: "darkula"
 slidenumber: true
 separator: ^---
 verticalSeparator: ^--
+showNotes: true
+## showNotes: "separate-page" fur longer notes
 ---
 
 # Revealjs <br> Introduction <br> <small>by [Knecht](https://knowledge.rootknecht.net/about)</small>
@@ -73,11 +75,11 @@ verticalSeparator: ^--
 ## Tooling
 
 <!-- .slide: data-background="./background.png" -->
-<!-- .slide: style="color:red" -->
+<!-- .slide: style="color:yellow" -->
 
 * Emacs, VS Code, Vim <!-- .element: class="fragment" -->
 * R Studio, Jupyter <!-- .element: class="fragment" -->
-* reveal-md, Pandoc <!-- .element: class="fragment" -->
+* reveal-md Pandoc <!-- .element: class="fragment" -->
 * HTML <!-- .element: class="fragment" -->
 * Many more  <!-- .element: class="fragment" -->
 
@@ -107,6 +109,28 @@ reveal-md presentation.md --static public
 1. Export with reveal-md
 1. Push changes to Gitlab
 1. Triggering [Gitlab CI](https://repo.rootknecht.net/open/revealjs-intro/pipelines)
+
+--
+
+### Speaker Notes
+
+![](speaker.png) <!-- .element height="80%" width="80%" -->
+
+Note: There are speaker notes too!
+
+--
+
+### PDF Export
+
+* reveal-md presentation.md --print slides.pdf
+* With vscode-reveal
+* Adding `?print-pdf-now` manually
+* Pandoc
+
+[This presentaion as PDF](./revealjs-intro.pdf)
+
+Note: First requires Puppeteer installed
+second works for now only with Chrome
 
 ---
 
@@ -146,3 +170,6 @@ reveal-md presentation.md --static public
 * [Emacs](https://github.com/yjwen/org-reveal)
 * [Pandoc](https://pandoc.org/)
 * [reveal-md](https://github.com/webpro/reveal-md)
+* [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/)
+
+# Thanks !
