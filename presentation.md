@@ -10,7 +10,7 @@ showNotes: true ## Export notes in pdf
 ## showNotes: "separate-page" fur longer notes
 ---
 
-# Revealjs <br> Introduction <br> <small>by [Knecht](https://knowledge.rootknecht.net/about)</small>
+# Revealjs <br> Introduction <br> <small>by [Allaman](https://knowledge.rootknecht.net/about)</small>
 
 ---
 
