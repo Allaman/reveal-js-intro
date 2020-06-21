@@ -10,69 +10,43 @@ showNotes: true ## Export notes in pdf
 ## showNotes: "separate-page" for longer notes
 ---
 
-# Revealjs <br> Introduction <br> <small>by [Allaman](https://knowledge.rootknecht.net/about)</small>
+# Do you know this?
 
----
+![](bad-pp.jpg) <!-- .element height="50%" width="50%" -->
 
-# Why <br> Reveal?
+<small><small>[source](http://www.kothuria.com/bad-powerpoint-presentations/bad-powerpoint-presentations-examples-of-bad-powerpoint-presentations-slaved-template/)</small></small>
 
----
-
-## Do you know this?
-
-![](bad-pp.jpg) <!-- .element height="65%" width="65%" -->
-
-<small><small>[source](http://www.kothuria.com/bad-powerpoint-presentations/bad-powerpoint-presentations-examples-of-bad-powerpoint-presentations-slaved-template/)</small><small>
-
---
-
-## How to diff?
+# How to diff?
 
 ![](ppt.png) <!-- .element height="40%" width="40%" -->
 
 <small><small>Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small>
 
---
-
-## Do you know this?
+# Do you know this?
 
 ![](markdown.png) <!-- .element height="100%" width="100%" -->
 
---
-
-## How about that?
+# How about that?
 
 ![](web.png) <!-- .element height="80%" width="80%" -->
 
 <small><small>[source](https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png)</small></small>
 
---
+# Webtechnologies + Markup Language = ???
 
-## Webtechnologies + Markup Language <br>= ???
-
----
-
-# Revealjs
-
---
-
-## What is that?
+# REVEALJS
 
 * Framework for HTML presentations <!-- .element: class="fragment" -->
 * Support for Markdown, orgmode, rST, and more <!-- .element: class="fragment" -->
 * Speaker notes, pdf export, API, and more <!-- .element: class="fragment" -->
 
---
-
-## Syntax
+# Syntax
 
 ![](code.png)  <!-- .element height="65%" width="65%" -->
 
-<small>[source of this presentation](https://repo.rootknecht.net/open/revealjs-intro/) and a slightly more [extensive example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
+<small>[source of this presentation](https://github.com/Allaman/reveal-js-intro) and a slightly more [extensive example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
 
---
-
-## Tooling
+# Tooling
 
 <!-- .slide: data-background="./background.png" -->
 <!-- .slide: style="color:yellow" -->
@@ -83,9 +57,7 @@ showNotes: true ## Export notes in pdf
 * HTML <!-- .element: class="fragment" -->
 * Many more  <!-- .element: class="fragment" -->
 
---
-
-### Pandoc example
+# Pandoc
 
 ```bash
 pandoc -t revealjs -s -o slides.html myslides.md \
@@ -94,9 +66,7 @@ pandoc -t revealjs -s -o slides.html myslides.md \
 
 Note: Does require internet access as reveljs libs will be loaded from the web
 
---
-
-### Reveal-md example
+# Reveal-md
 
 ```bash
 npm i -g reveal-md
@@ -106,32 +76,24 @@ reveal-md presentation.md
 
 Note: First exports static html files, second spins up local webserver
 
---
-
-## VS Code revealjs Extension
+# VS Code Extension
 
 ![](vscode-reveal.png)  <!-- .element height="45%" width="45%" -->
 
---
+# Revealjs Workflow
 
-### Revealjs & Gitlab Workflow
+1. Markdown editing
+1. Create a standalone HTML file with [Pandoc](https://pandoc.org/)
+1. Push it to your [Webserver|Github Pages|S3|...]
+1. ... Or automate it via pipeline
 
-1. VS Code editing
-1. Export with reveal-md
-1. Push changes to Gitlab
-1. Triggering [Gitlab CI](https://repo.rootknecht.net/open/revealjs-intro/pipelines)
-
---
-
-### Speaker Notes
+# Speaker Notes
 
 ![](speaker.png) <!-- .element height="80%" width="80%" -->
 
 Note: There are speaker notes too! These require a webserver (no static files)
 
---
-
-### PDF Export
+# PDF Export
 
 * reveal-md presentation.md --print slides.pdf
 * With vscode-reveal
@@ -143,16 +105,12 @@ Note: There are speaker notes too! These require a webserver (no static files)
 Note: First requires Puppeteer installed,
 second works for now only with Chrome
 
----
-
 # Benefits
 
 * VCS, portable, small size
 * Easy to write
 * Powerful features
 * Less is more
-
----
 
 # To be considered
 
@@ -162,19 +120,15 @@ second works for now only with Chrome
 * Basic HTML knowledge required
 * Browser compatibility
 
----
-
 # Alternatives
 
 * [Impressjs](https://impress.js.org/#/bored)
 * [Remark](https://remarkjs.com/)
 * [Shower](https://github.com/shower/shower)
-* [Latex Beamer](https://de.wikipedia.org/wiki/Beamer_(LaTeX%29)
+* [Latex Beamer](https://de.wikipedia.org/wiki/Beamer_(LaTeX))
 * [Prezi](https://prezi.com/de/)
 
----
-
-### Links
+# Links
 
 * [Revealjs](https://github.com/hakimel/reveal.js)
 * [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal)
@@ -182,7 +136,5 @@ second works for now only with Chrome
 * [Pandoc](https://pandoc.org/)
 * [reveal-md](https://github.com/webpro/reveal-md)
 * [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/)
-
----
 
 # Thanks!
