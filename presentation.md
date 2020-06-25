@@ -6,29 +6,27 @@ highlightTheme: "darkula"
 slidenumber: true
 separator: ^---
 verticalSeparator: ^--
-showNotes: true ## Export notes in pdf
-## showNotes: "separate-page" for longer notes
 ---
 
 # Do you know this?
 
-![](bad-pp.jpg) <!-- .element height="50%" width="50%" -->
+![](bad-pp.jpg){ width=50% height=50% }
 
 <small><small>[source](http://www.kothuria.com/bad-powerpoint-presentations/bad-powerpoint-presentations-examples-of-bad-powerpoint-presentations-slaved-template/)</small></small>
 
 # How to diff?
 
-![](ppt.png) <!-- .element height="40%" width="40%" -->
+![](ppt.png){ width=40% height=40% }
 
 <small><small>Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small>
 
 # Do you know this?
 
-![](markdown.png) <!-- .element height="100%" width="100%" -->
+![](markdown.png){ width=100% height=100% }
 
 # How about that?
 
-![](web.png) <!-- .element height="80%" width="80%" -->
+![](web.png){ width=80% height=80% }
 
 <small><small>[source](https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png)</small></small>
 
@@ -36,37 +34,48 @@ showNotes: true ## Export notes in pdf
 
 # REVEALJS
 
-* Framework for HTML presentations <!-- .element: class="fragment" -->
-* Support for Markdown, orgmode, rST, and more <!-- .element: class="fragment" -->
-* Speaker notes, pdf export, API, and more <!-- .element: class="fragment" -->
+::: incremental
+
+* Framework for HTML presentations
+* Support for Markdown, orgmode, rST, and more
+* Speaker notes, pdf export, API, and more
+
+:::
 
 # Syntax
 
-![](code.png)  <!-- .element height="65%" width="65%" -->
+![](code.png){ width=50% height=50% }
 
-<small>[source of this presentation](https://github.com/Allaman/reveal-js-intro) and a slightly more [extensive example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
+<small>[source of this presentation](https://raw.githubusercontent.com/Allaman/reveal-js-intro/master/presentation.md) and a slightly more [extensive example](https://raw.githubusercontent.com/evilz/vscode-reveal/master/sample.md)</small>
 
-# Tooling
+# Tooling {data-background-image="./background.png"}
 
-<!-- .slide: data-background="./background.png" -->
-<!-- .slide: style="color:yellow" -->
+## Many tools {style="color:yellow"}
 
-* Emacs, VS Code, Vim <!-- .element: class="fragment" -->
-* R Studio, Jupyter <!-- .element: class="fragment" -->
-* reveal-md Pandoc <!-- .element: class="fragment" -->
-* HTML <!-- .element: class="fragment" -->
-* Many more  <!-- .element: class="fragment" -->
+::: incremental
 
-# Pandoc
+* Emacs, VS Code, Vim
+* R Studio, Jupyter
+* reveal-md Pandoc
+* HTML
+* Many more
+
+:::
+
+## Pandoc
 
 ```bash
 pandoc -t revealjs -s -o slides.html myslides.md \
     -V revealjs-url=http://lab.hakim.se/reveal-js
 ```
 
-Note: Does require internet access as reveljs libs will be loaded from the web
+::: notes
 
-# Reveal-md
+Does require internet access as reveljs libs will be loaded from the web
+
+:::
+
+## Reveal-md
 
 ```bash
 npm i -g reveal-md
@@ -74,13 +83,17 @@ reveal-md presentation.md --static public
 reveal-md presentation.md
 ```
 
-Note: First exports static html files, second spins up local webserver
+::: notes
 
-# VS Code Extension
+ First exports static html files, second spins up local webserver
 
-![](vscode-reveal.png)  <!-- .element height="45%" width="45%" -->
+:::
 
-# Revealjs Workflow
+## VS Code Extension
+
+![](vscode-reveal.png){ width=45% height=45% }
+
+## Revealjs Workflow
 
 1. Markdown editing
 1. Create a standalone HTML file with [Pandoc](https://pandoc.org/)
@@ -89,9 +102,13 @@ Note: First exports static html files, second spins up local webserver
 
 # Speaker Notes
 
-![](speaker.png) <!-- .element height="80%" width="80%" -->
+![](speaker.png){ width=80% height=80% }
 
-Note: There are speaker notes too! These require a webserver (no static files)
+::: notes
+
+There are speaker notes too! These require a webserver (no static files)
+
+:::
 
 # PDF Export
 
@@ -100,10 +117,11 @@ Note: There are speaker notes too! These require a webserver (no static files)
 * Adding `?print-pdf-now` manually to URL
 * Pandoc
 
-[This presentation as PDF](./revealjs-intro.pdf)
+::: notes
 
-Note: First requires Puppeteer installed,
-second works for now only with Chrome
+First requires Puppeteer installed,second works for now only with Chrome
+
+:::
 
 # Benefits
 
@@ -119,6 +137,7 @@ second works for now only with Chrome
 * Additional export
 * Basic HTML knowledge required
 * Browser compatibility
+* Syntax depends on "build" tool
 
 # Alternatives
 
