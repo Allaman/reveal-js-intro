@@ -1,6 +1,6 @@
 ---
 title: Revealjs Introduction
-theme : "moon"
+theme: "moon"
 transition: "zoom"
 highlightTheme: "darkula"
 slidenumber: true
@@ -36,9 +36,9 @@ verticalSeparator: ^--
 
 ::: incremental
 
-* Framework for HTML presentations
-* Support for Markdown, orgmode, rST, and more
-* Speaker notes, pdf export, API, and more
+- Framework for HTML presentations
+- Support for Markdown, orgmode, rST, and more
+- Speaker notes, pdf export, API, and more
 
 :::
 
@@ -54,11 +54,11 @@ verticalSeparator: ^--
 
 ::: incremental
 
-* Emacs, VS Code, Vim
-* R Studio, Jupyter
-* reveal-md Pandoc
-* HTML
-* Many more
+- Emacs, VS Code, Vim
+- R Studio, Jupyter
+- reveal-md Pandoc
+- HTML
+- Many more
 
 :::
 
@@ -85,7 +85,7 @@ reveal-md presentation.md
 
 ::: notes
 
- First exports static html files, second spins up local webserver
+First exports static html files, second spins up local webserver
 
 :::
 
@@ -112,10 +112,10 @@ There are speaker notes too! These require a webserver (no static files)
 
 # PDF Export
 
-* reveal-md presentation.md --print slides.pdf
-* With vscode-reveal
-* Adding `?print-pdf-now` manually to URL
-* Pandoc
+- reveal-md presentation.md --print slides.pdf
+- With vscode-reveal
+- Adding `?print-pdf-now` manually to URL
+- Pandoc
 
 ::: notes
 
@@ -125,35 +125,36 @@ First requires Puppeteer installed,second works for now only with Chrome
 
 # Benefits
 
-* VCS, portable, small size
-* Easy to write
-* Powerful features
-* Less is more
+- VCS, portable, small size
+- Easy to write
+- Powerful features
+- Less is more
 
 # To be considered
 
-* No diagrams ootb
-* Image sizing/alignment tricky
-* Additional export
-* Basic HTML knowledge required
-* Browser compatibility
-* Syntax depends on "build" tool
+- No diagrams ootb
+- Image sizing/alignment tricky
+- Additional export
+- Basic HTML knowledge required
+- Browser compatibility
+- Syntax depends on "build" tool
 
 # Alternatives
 
-* [Impressjs](https://impress.js.org/#/bored)
-* [Remark](https://remarkjs.com/)
-* [Shower](https://github.com/shower/shower)
-* [Latex Beamer](https://de.wikipedia.org/wiki/Beamer_(LaTeX))
-* [Prezi](https://prezi.com/de/)
+- [Impressjs](https://impress.js.org/#/bored)
+- [Remark](https://remarkjs.com/)
+- [Shower](https://github.com/shower/shower)
+- [Latex Beamer](<https://de.wikipedia.org/wiki/Beamer_(LaTeX)>)
+- [Prezi](https://prezi.com/de/)
+- [Sli.dev](https://sli.dev/)
 
 # Links
 
-* [Revealjs](https://github.com/hakimel/reveal.js)
-* [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal)
-* [Emacs](https://github.com/yjwen/org-reveal)
-* [Pandoc](https://pandoc.org/)
-* [reveal-md](https://github.com/webpro/reveal-md)
-* [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/)
+- [Revealjs](https://github.com/hakimel/reveal.js)
+- [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal)
+- [Emacs](https://github.com/yjwen/org-reveal)
+- [Pandoc](https://pandoc.org/)
+- [reveal-md](https://github.com/webpro/reveal-md)
+- [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/)
 
 # Thanks!
